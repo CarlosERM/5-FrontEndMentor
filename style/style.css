@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:wght@400;700&display=swap');
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+* {
+        box-sizing:border-box;
+}
+body, html {
+    height:100%;
+    font-family: 'Karla', sans-serif;
+    background-color:#E5EFF5;
+}
+#main-body {
+    margin:4.5rem 1.9rem;
+    display:grid;
+    grid-template-columns:1fr;
+    grid-template-rows:0.9fr 0.7fr 0.9fr;
+    background-color:white;
+    border-radius:0.4rem;
+
+}
+header {
+    padding:1.5rem 1.5rem 0rem 1.5rem;
+}
+header h1{
+    margin-top:0;
+    color:#2AB2AF;
+    font-weight:700;
+    font-size:1.3rem;
+    margin-bottom:1.5rem;
+}
+header h2 {
+    font-size:0.9rem;
+    color:#C0DF34;
+    margin-bottom:1.5rem;
+}
+header p {
+    font-size:0.88rem;
+    color:#98A6BD;
+    line-height:1.6rem;
+    margin-bottom:2rem;
+}
+main {
+    padding:1.5rem 1.5rem 0rem 1.5rem;
+    background-color:#2AB2AF;
+}
+
+main h2 {
+    font-size:1.2rem;
+    color:white;
+    margin-top:0;
+    font-weight:700;
+} 
+#price {    
+    height:2rem;
+    display:flex;
+    align-items:center;
+}
+main h3 {
+    display:inline;
+    font-size:2rem;
+    margin-right:1rem;
+    color:white
+}
+main #price span {
+    color:#E5EFF5;
+}
+main p {
+    color:white;
+}
+main button {
+    box-shadow: -3px 1px 24px -10px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -3px 1px 24px -10px rgba(0,0,0,0.75);
+    -moz-box-shadow: -3px 1px 24px -10px rgba(0,0,0,0.75);
+    background-color:#C0DF34;
+    color:white;
+    font-weight:700;
+    border:none;
+    border-radius:5px;
+    height:3rem;
+    width:16.6rem;
+    margin-bottom:1.5rem;
+    cursor:pointer;
+}
+main button:hover {
+    color:#2AB2AF;
+    background:white;
+}
+footer {
+    background-color:#4ABEBD;
+    padding:1.5rem;   
+    border-radius: 0rem 0rem 0.4rem 0.4rem;
+
+}
+footer h2 {
+    font-size:1.2rem;
+    margin:0;
+    color:white;
+    margin-bottom:1.5rem;
+    
+}
+footer p {
+    font-size:0.9rem;
+    color:#E5EFF5;
+    line-height:0.4rem;
+    margin-bottom:0.5rem;
+}
