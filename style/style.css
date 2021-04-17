@@ -78,7 +78,7 @@ main button {
     border:none;
     border-radius:5px;
     height:3rem;
-    width:16.7rem;
+    width:100%;
     margin-bottom:1.5rem;
     cursor:pointer;
 }
@@ -92,6 +92,11 @@ footer {
     border-radius: 0rem 0rem 0.4rem 0.4rem;
 
 }
+footer ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
 footer h2 {
     font-size:1.2rem;
     margin:0;
@@ -99,9 +104,111 @@ footer h2 {
     margin-bottom:1.5rem;
     
 }
-footer p {
+footer ul {
+    list-style:none;
+    margin:0;
+    padding:0;
+}
+
+footer a {
     font-size:0.9rem;
     color:#E5EFF5;
     line-height:0.4rem;
     margin-bottom:0.5rem;
+    text-decoration:none;
+
 }
+footer a:hover {
+    text-decoration:underline;
+    color:white;
+}
+
+@media all and (min-width:490px) {
+    footer ul {
+        display:grid;
+        grid-template-columns:1fr 1fr;
+        font-size: 1.2rem;
+        justify-items:center;
+   }
+  footer li {
+      width:60%;
+  }
+   
+   
+}
+@media all and (min-width:680px) {
+    #main-body {
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 0.7fr 1fr;
+        grid-template-areas: "topo topo"
+                             "baixo1  baixo2";
+    }
+    header {
+        padding:2rem;;
+        grid-area: topo;
+    }
+    header h1 {
+        margin-top:0.7rem;
+        font-size:1.5rem;
+        margin-bottom:2rem;
+    }
+    header h2 {
+        font-size:1.2rem;
+        margin-bottom:0;
+    }
+    header p {
+        margin-top:0.7rem;
+        font-size: 1rem;
+        margin-bottom:0.5rem;
+    }
+    main {
+        border-radius:0rem 0rem 0rem 0.4rem;
+        padding:2rem;
+        grid-area:baixo1;
+    }
+    main h2 {
+        margin-top:1rem;
+        margin-bottom:1.6rem;
+    
+    }
+    main button {
+        height:3.3rem;
+    }
+    footer {
+        grid-area:baixo2;   
+        padding:2rem;
+        border-radius:0rem 0rem 0.4rem 0rem;
+    }
+    footer h2 {
+        margin-top:1rem;
+
+    }
+    footer ul {
+
+        display:block;
+
+    }
+    footer li {
+        width:100%;
+    }
+    footer a {
+        font-size:1.14rem;
+        }
+    
+
+
+}
+@media all and (min-width:992px) {
+    #main-body {
+        height:auto;
+        width:50%;
+        margin: 10rem auto 0rem auto;
+    }
+    header p {
+        font-size:1.2em;
+    }
+    footer a {
+        font-size:0.9rem;
+    }
+}
+
