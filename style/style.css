@@ -13,7 +13,7 @@ body, html {
     margin:4.5rem 1.9rem;
     display:grid;
     grid-template-columns:1fr;
-    grid-template-rows:0.9fr 0.7fr 0.9fr;
+    grid-template-rows:0.9fr 0.fr 0.9fr;
     background-color:white;
     border-radius:0.4rem;
 
@@ -66,6 +66,7 @@ main #price span {
 }
 main p {
     color:white;
+    margin-bottom:2rem;
 }
 main button {
     box-shadow: -3px 1px 24px -10px rgba(0,0,0,0.75);
@@ -77,7 +78,7 @@ main button {
     border:none;
     border-radius:5px;
     height:3rem;
-    width:16.6rem;
+    width:21rem;
     margin-bottom:1.5rem;
     cursor:pointer;
 }
