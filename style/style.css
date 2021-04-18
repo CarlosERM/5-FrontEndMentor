@@ -128,12 +128,9 @@ footer a:hover {
         display:grid;
         grid-template-columns:1fr 1fr;
         font-size: 1.2rem;
-        justify-items:center;
+        justify-items:baseline;
    }
-  footer li {
-      width:60%;
-  }
-   
+
    
 }
 @media all and (min-width:680px) {
@@ -192,7 +189,7 @@ footer a:hover {
         width:100%;
     }
     footer a {
-        font-size:1.14rem;
+        font-size:1rem;
         }
     
 
@@ -200,12 +197,18 @@ footer a:hover {
 }
 @media all and (min-width:992px) {
     #main-body {
-        height:auto;
         width:50%;
-        margin: 10rem auto 0rem auto;
+        margin: 16rem auto 0rem auto;
+    }
+    main p {
+        margin-bottom:2.5rem;
+        
+    }
+    main button {
+        margin-bottom:0;
     }
     header p {
-        font-size:1.2em;
+        font-size:1.1em;
     }
     footer a {
         font-size:0.9rem;
