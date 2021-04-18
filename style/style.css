@@ -8,6 +8,10 @@ body, html {
     height:100%;
     font-family: 'Karla', sans-serif;
     background-color:#E5EFF5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #main-body {
     margin:4.5rem 1.9rem;
@@ -197,8 +201,8 @@ footer a:hover {
 }
 @media all and (min-width:992px) {
     #main-body {
-        width:50%;
-        margin: 16rem auto 0rem auto;
+        width:65%;
+/*         margin: 16rem auto 0rem auto; */
     }
     main p {
         margin-bottom:2.5rem;
