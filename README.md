@@ -9,8 +9,8 @@ This is a solution to the [Single price grid component challenge on Frontend Men
 
 ### Links
 
-- Solution URL: [https://github.com/CarlosERM/5-FrontEndMentor.git](https://github.com/CarlosERM/5-FrontEndMentor.git)
-- Live Site URL: [https://carloserm.github.io/5-FrontEndMentor/](https://carloserm.github.io/5-FrontEndMentor/)
+- Solution URL: [https://github.com/CarlosERM/Single-Price.git](https://github.com/CarlosERM/Single-Price.git)
+- Live Site URL: [https://carloserm.github.io/Single-Price/](https://carloserm.github.io/Single-Price/)
 
 ## My process
 Scary
